@@ -11,7 +11,7 @@ import java.util.Arrays;
  */
 public class Cache {
 
-    public static final boolean isAvailable = true; // 默认启用Cache
+    public static boolean isAvailable = true; // 默认启用Cache
 
     public static final int CACHE_SIZE_B = 32 * 1024; // 32 KB 总大小
 
